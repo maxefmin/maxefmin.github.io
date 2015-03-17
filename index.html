@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Esittely sivu</title>
+  <link rel="stylesheet" type="text/css" href="jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="sensiis.css">
+  <script src="jquery-1.6.2.min.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script>
+  function traiteClick(){
+  // On récupère le noeud du DOM correspondant au titre From course - w3devcampus.com/html5-w3c-training/
+  var otsikkoyks = document.querySelector("#otsikko");
+  var otsake = document.querySelector("#omaOtsikko");
+  
+  // On modifie son contenu.
+  otsake.innerHTML = "Vieritä sivua alas - Kokeiltavaksi, kiitos!";
+  otsikkoyks.innerHTML = "Ylempi otsikko ehdottaa...";
+
+};
+ </script>
+<script src="siisen.js"></script>
+</head>
+<body>
+  <fieldset class="paasivus">
+    <section><header><h1>sivustollani.kokeilen.HTML5.JavaScript.Css.yhteistyötä</h1>
+    </header>
+      <p>Tälle sivulle olen koonnut kokemuksiani eri mahdollisuuksista,<br> joita haluan HTML5:n, JavaScript:n ja CSS välineiden avulla<br> huvikseni kokeilla. Apuna on jQuery ja jQuery UI frameworkit ja <br>myöhemmin muitakin !</p>
+    <header>
+		<h1 id="omaOtsikko" style="color: #1952A4;">Kokeilualusta erilaisille jipoille!</h1>
+    <p>Ensiksi aseta -></p>
+			<button style="color:red;" onclick="traiteClick()">Otsikot toisiksi!
+      </button><p>'Koti'-linkki tuolla alempana palauttaa alkutilanteen! (Otsikot ennalleen.)</p>
+		<h1 id="otsikko" class="important">Muuttuvat otsikot</h1></header> 
+</section>
+</fieldset>
+<fieldset>
+<section>
+    <header>
+      <h3 id="lyhyt">Lyhyesti sivusta.</h3>
+    </header>
+      <div style="width: 80%;">
+      <p>Tällä sivulla joitakin jQuery UI:n sekä <br/>jQuery:n tarjoamia mahdollisuuksia<br/> HTML5:n sivun hallinnnasta </p>
+
+      </div>
+
+	<div id="v_nav_bar">
+    <a href="sesiis.html">Koti</a>
+    <a href="arskansivu.html">Vintage</a>
+    <a href="../mailto.htm">Omat sivut</a>
+    <a href="html-image-link.htm">Kuvat</a>
+    <a href="html-text-link.htm">Tekstit</a>
+	</div>
+</section>
+</fieldset>
+<div class="toggler">
+  <p>Ja vielä hieman alemmas...</p>
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Mietelmiä</h3>
+    <p>
+    <p>Solmu(kn)<br/> Nopeuden mittayksikkö liikuttaessa<br/> vesillä. 1 merimaili(6080 ft)/tunti.<br/> Lähtökohta on kaukana historiassa...
+    </p>
+    <p> L'humour. Une plaisanterie avec un air triste.<br/> de William Shakespeare</p>
+    <p>This is all about learning!</p><p>Möjligheter finns ju mera - här är  några av dem bara.</p> 
+    <br/><br/><p style="color:#99db38;">Häviävän kaunista...</p>
+  </div>
+</div>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Verho alas</option>
+  <option value="bounce">Kimpoova</option>
+  <option value="clip">Nouseva</option>
+  <option value="drop">Pistäydy</option>
+  <option value="explode">Osista</option>
+  <option value="fold">Taita</option>
+  <option value="highlight">Loisto hetki</option>
+  <option value="puff">Laskeutuva</option>
+  <option value="pulsate">Sykkivä</option>
+  <option value="scale">Skaalaa</option>
+  <option value="shake">Ravistaa</option>
+  <option value="size">Suurenee</option>
+  <option value="slide">Laidasta</option>
+</select>
+<br/><button id="button" class="ui-state-default ui-corner-all">Kokeiltavaksi</button>
+<footer class="sivu-kivijalka" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org">
+  <div class="wrap"><div align="center">
+    <span style="font-size:x-small;">
+      <p>Sivunluonti Juhani Runila </p></span></div>
+</footer>
+</body>
+</html>
