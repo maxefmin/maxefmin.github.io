@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Esittely sivuni</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
+	<title>Esittely sivu</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
   <link rel="stylesheet" type="text/css" href="sensiis.css">
-  <script>function traiteClick(){
-  // On récupère le noeud du DOM correspondant au titre From course - w3devcampus.com/html5-w3c-training/
+	<script>
+  function traiteClick(){
+  // On récupère le noeud du DOM correspondant au titre
   var otsikkoyks = document.querySelector("#otsikko");
   var otsake = document.querySelector("#omaOtsikko");
   
@@ -22,11 +23,11 @@
 </head>
 <body>
   <fieldset class="paasivus">
-    <section><header><h1>sivustollani.kokeilen.HTML5.JavaScript.Css.yhteistyötä</h1>
+    <section><header><h1>Sivullani kokeiluja HTML5 JavaScript Css !</h1>
     </header>
-      <p>Tälle sivulle olen koonnut kokemuksiani eri mahdollisuuksista,<br> joita haluan HTML5:n, JavaScript:n ja CSS välineiden avulla<br> huvikseni kokeilla. Apuna on jQuery ja jQuery UI frameworkit ja <br>myöhemmin muitakin !</p>
+      <p>Tälle sivulle olen koonnut kokemuksiani HTML5:n, JavaScript:n ja CSS:n sumista mahdollisuuksista,<br> joita haluan <br> huvikseni kokeilla. Apuna ovat jQuery ja jQuery UI frameworkit ja <br>myöhemmin mahdollisesti muitakin !</p>
     <header>
-		<h1 id="omaOtsikko" style="color: #1952A4;">Kokeilualusta erilaisille jipoille!</h1>
+		<h1 id="omaOtsikko" style="color: #1952A4;">Leikkikenttäni erilaisille jipoille!</h1>
     <p>Ensiksi aseta -></p>
 			<button style="color:red;" onclick="traiteClick()">Otsikot toisiksi!
       </button><p>'Koti'-linkki tuolla alempana palauttaa alkutilanteen! (Otsikot ennalleen.)</p>
@@ -45,10 +46,10 @@
 
 	<div id="v_nav_bar">
     <a href="sesiis.html">Koti</a>
-    <a href="arskansivu.html">Vintage</a>
-    <a href="../mailto.htm">Omat sivut</a>
-    <a href="html-image-link.htm">Kuvat</a>
-    <a href="html-text-link.htm">Tekstit</a>
+    <a href="sesiis.html">Vintage</a>
+    <a href="sesiis.html">Omat sivut</a>
+    <a href="sesiis.htm">Kuvat</a>
+    <a href="sesiis.htm">Tekstit</a>
 	</div>
 </section>
 </fieldset>
@@ -88,3 +89,4 @@
 </footer>
 </body>
 </html>
+
