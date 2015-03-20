@@ -1,7 +1,7 @@
-html,body,fieldset,h1,h2{display:inline-block;margin:24px;}
+html,body,fieldset,section,div,h1,h2,{ display: inline-block; margin: 14px;}
 
 body,h3,h4,a
-{ background-color: #7e9411; margin:8px;}
+{ background-color: #9ac011; margin:8px;}
 
 .toggler { width: 300px; height: 400px; }
 #button { padding: 0.5em; margin:1em; text-decoration: none; }
@@ -14,7 +14,10 @@ body,h3,h4,a
 .important { color:#0918dd; width: 10%; height: 20%;}
 
     #v_nav_bar a { padding:10px; font-weight:bold; display:inline-block; width:100px; }
-    #v_nav_bar a:link { color:#aa99d0; background-color:#1893ba; }
-    #v_nav_bar a:visited { color:#d0d0d0; background-color:#942290; }
-    #v_nav_bar a:hover { color:#11d0d0; background-color:#029760; }
-    #v_nav_bar a:active { color:#aa99d0; background-color:#00ff66; }
+    #v_nav_bar a:link { color:#2599d0; background-color: #1893ba; }
+    #v_nav_bar a:visited { color:#d0d0d0; background-color: #1893ba; }
+    #v_nav_bar a:hover { color:#11d0d0; background-color: #1893ba;}
+    #v_nav_bar a:active { color:#aa99d0; background-color: #1893ba;}
+
+#v_nav_bar {background-color: #1893ba;}
+
