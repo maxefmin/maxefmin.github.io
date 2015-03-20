@@ -1,4 +1,5 @@
-$(function() {
+
+  $(function() {
   // run the currently selected effect
     function runEffect() {
       // get effect type from
@@ -31,4 +32,9 @@ $(function() {
     $( "#effect" ).hide();
 
     $( "#lyhyt").hide();
+
+    $(function() {
+    
+    $( "#accordion" ).accordion();
+      })
     });
