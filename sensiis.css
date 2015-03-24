@@ -1,23 +1,35 @@
-html,body,fieldset,section,div,h1,h2,{ display: inline-block; margin: 14px;}
+html,body,section,h1,h2,{ display: inline-block; margin: 14px;}
+fieldset { display: block; margin: 10px; width:508px;background-color: #5ec089;}
 
 body,h3,h4,a
 { background-color: #9ac011; margin:8px;}
-
-.toggler { width: 300px; height: 400px; }
+a:hover {color:orange;}
+#button:hover {color:red;}
+.toggler { display: inline-block; width: 400px; height: 300px; }
+#accordion { width: 800px; height: 20px; margin-left:400px; }
 #button { padding: 0.5em; margin:1em; text-decoration: none; }
 #effect { width: 440px; height: 235px; margin-left:8px;margin-top: 10px; padding: 1.1em; position: absolute; color:orange; }
-#effect h3 { margin: 0; padding: 0.4em; text-align: center;}
+#effect, #selit, h3 { margin: 0; padding: 0.4em; text-align: center;}
+#boora{ border-radius: 70% / 100% 100% 0 0; transition: .5s; }
+#boora:hover {border-radius: 30%;} 
+#omaOtsikko{ margin-left: 30px; position: absolute; text-align:center; }
+#otsikko {margin-left: 490px; width:308; position: absolute; text-align:center; }
+#silita{ margin-left: 1em; width: 600px; position: relative; }
+#silita-1{ display:inline-block; margin-left: 1em; width: 600px; position: absolute;}
+#paasi-foot {margin-bottom: 10px;}
+#ui-id-2 { background: #5ec089; margin:10px; border-radius: 50px;}
+#ui-id-4 { background: #5ec079; margin:10px; border-radius: 50px;}
+#ui-id-6 { background: #5ec069; margin:10px; border-radius: 50px;}
+#ui-id-8 { background: #5ec059; margin:10px; border-radius: 50px;}
+#ui-id-10{ background: #5ec049; margin:10px; border-radius: 50px;}
+.important { color:#0918dd; width: 10%; height: 20%; border-radius: 50px;}
 
-#omaOtsikko { margin-left: 310px; position: absolute; text-align:center; }
-#otsikko {margin-left: 490px; position: relative; text-align:center; }
-
-.important { color:#0918dd; width: 10%; height: 20%;}
-
-    #v_nav_bar a { padding:10px; font-weight:bold; display:inline-block; width:100px; }
+    #v_nav_bar a { padding:10px; font-weight:bold; display:inline-block; width:100px; border-radius: 20px; }
     #v_nav_bar a:link { color:#2599d0; background-color: #1893ba; }
-    #v_nav_bar a:visited { color:#d0d0d0; background-color: #1893ba; }
+    #v_nav_bar a:visited { color:rgba(128, 203, 196, 0.62); background-color: #1893ba; }
     #v_nav_bar a:hover { color:#11d0d0; background-color: #1893ba;}
     #v_nav_bar a:active { color:#aa99d0; background-color: #1893ba;}
 
-#v_nav_bar {background-color: #1893ba;}
+#v_nav_bar {background-color:rgba(199, 211, 54, 0.38);border: 2px; border-radius: 20px;}
+
 
