@@ -1,35 +1,41 @@
-html,body,section,h1,h2,{ display: inline-block; margin: 14px;}
-fieldset { display: block; margin: 10px; width:508px;background-color: #5ec089;}
+html,body,.hela_sivu_1{ display: block;  margin-right: 0.1em;margin-bottom: 1.5em; background-color: #9aa0af}
+fieldset,#valin-0.1,#palaus {display:inline-block; margin-left:40px; padding: 10px; width:50%;background-color: #9ac0dd}
+.paasivus-0.1 {display:inline-block; margin-left:40px; padding: 10px; width:280px;}
+.paasivus-0.0 {display:inline-block; margin-right:3em;; padding: 10px; width:280px;}
 
-body,h3,h4,a
-{ background-color: #9ac011; margin:8px;}
+body,#paasi-foot,h3,h4,a, { background-color: #9ac0ff; margin:0.4em;}
 a:hover {color:orange;}
-#button:hover {color:red;}
-.toggler { display: inline-block; width: 400px; height: 300px; }
-#accordion { width: 800px; height: 20px; margin-left:400px; }
-#button { padding: 0.5em; margin:1em; text-decoration: none; }
-#effect { width: 440px; height: 235px; margin-left:8px;margin-top: 10px; padding: 1.1em; position: absolute; color:orange; }
-#effect, #selit, h3 { margin: 0; padding: 0.4em; text-align: center;}
-#boora{ border-radius: 70% / 100% 100% 0 0; transition: .5s; }
-#boora:hover {border-radius: 30%;} 
-#omaOtsikko{ margin-left: 30px; position: absolute; text-align:center; }
-#otsikko {margin-left: 490px; width:308; position: absolute; text-align:center; }
-#silita{ margin-left: 1em; width: 600px; position: relative; }
-#silita-1{ display:inline-block; margin-left: 1em; width: 600px; position: absolute;}
-#paasi-foot {margin-bottom: 10px;}
-#ui-id-2 { background: #5ec089; margin:10px; border-radius: 50px;}
-#ui-id-4 { background: #5ec079; margin:10px; border-radius: 50px;}
-#ui-id-6 { background: #5ec069; margin:10px; border-radius: 50px;}
-#ui-id-8 { background: #5ec059; margin:10px; border-radius: 50px;}
+#button:hover {color:red; position: relative;}
+.toggler { display: inline-block; width: 870px; height: 440px; }
+#accordion { width: 550px; margin-left:600px; position:relative; }
+#button { margin-right:3.3em; text-decoration: none; }
+#effect { width: 870px; height: 440px; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);}
+#effectTypes { width: 140px; height: 190px; position: relative; text-align: center;}
+section,{ margin-left: 50px; padding: 1px; text-align: center; width:50%; position:relative;}
+div,#selit { margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(120, 262, 97, 0.20);}
+h1,h2,#lyhyt { margin:auto; padding: 2px; text-align: center;}
+#boora{ border-radius: 80% / 10% 10% 0 0; transition: .2s; }
+#boora:hover {border-radius: 25%;}
+#boura{ border-radius: 80% / 100% 100% 0 0; transition: .2s; }
+#boura:hover {border-radius: .10%;} 
+/*{ margin-left: 10px; position: absolute; text-align:center; }*/
+#otsikko,#omaOtsikko{margin-left: 10px; width:508; position: relative; text-align:left; }
+#silita,#navibar{ display: inline-block; margin-left: 30px; width: 1050px; position: relative; }
+#silita-1{ margin-left: 1em; width: 600px; position: relative;}
+#ui-id-2 { background: #5ec089; margin:10px; border-radius: 10px;}
+#ui-id-4 { background: #5ec079; margin:10px; border-radius: 20px;}
+#ui-id-6 { background: #5ec069; margin:10px; border-radius: 30px;}
+#ui-id-8 { background: #5ec059; margin:10px; border-radius: 40px;}
 #ui-id-10{ background: #5ec049; margin:10px; border-radius: 50px;}
-.important { color:#0918dd; width: 10%; height: 20%; border-radius: 50px;}
+.important { margin-top: 20px;margin-left: 250px; color:#0918dd; width: 200px; height: 82px; border-radius: 40px; position:relative;}
 
-    #v_nav_bar a { padding:10px; font-weight:bold; display:inline-block; width:100px; border-radius: 20px; }
+    #v_nav_bar a { margin:10px;padding:2px; font-weight:bold; display:block; width:100px; border-radius: 10px; }
     #v_nav_bar a:link { color:#2599d0; background-color: #1893ba; }
     #v_nav_bar a:visited { color:rgba(128, 203, 196, 0.62); background-color: #1893ba; }
     #v_nav_bar a:hover { color:#11d0d0; background-color: #1893ba;}
     #v_nav_bar a:active { color:#aa99d0; background-color: #1893ba;}
 
-#v_nav_bar {background-color:rgba(199, 211, 54, 0.38);border: 2px; border-radius: 20px;}
+#v_nav_bar {margin: auto; background-color:rgba(199, 211, 54, 0.38);border: 2px ,solid; border-radius: 20px;}
+
 
 
