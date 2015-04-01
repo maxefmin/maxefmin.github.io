@@ -1,4 +1,4 @@
-html,body,.hela_sivu_1{ display: block;  margin-right: 0.1em;margin-bottom: 1.5em; background-color: #9aa0af}
+html,body,.hela_sivu_1{ display: block;  margin-right: 1.1em; margin-bottom: 1.5em; background-color: #9aa0af}
 fieldset,#valin-0.1,#palaus {display:inline-block; margin-left:40px; padding: 10px; width:50%;background-color: #9ac0dd}
 .paasivus-0.1 {display:inline-block; margin-left:40px; padding: 10px; width:280px;}
 .paasivus-0.0 {display:inline-block; margin-right:3em;; padding: 10px; width:280px;}
@@ -10,7 +10,7 @@ a:hover {color:orange;}
 #accordion { width: 550px; margin-left:600px; position:relative; }
 #button { margin-right:3.3em; text-decoration: none; }
 #effect { width: 870px; height: 440px; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);}
-#effectTypes { width: 140px; height: 120px; position: relative; text-align: center;}
+#effectTypes { width: 140px; height: 20px; position: relative; text-align: center;}
 section,{ margin-left: 50px; padding: 1px; text-align: center; width:50%; position:relative;}
 div,#selit { margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(120, 262, 97, 0.20);}
 h1,h2,#lyhyt { margin:auto; padding: 2px; text-align: center;}
