@@ -12,7 +12,7 @@ a:hover {color:orange;}
 #effect { width: 870px; height: 440px; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);}
 #effectTypes { width: 140px; height: 20px; position: relative; text-align: center;}
 section{ margin-left: 50px; padding: 1px; text-align: center; width:50%; position:relative;}
-div,#selit { margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(120, 262, 97, 0.20);}
+div,#selit { margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(97, 255, 208, 0.5);}
 h1,h2,#lyhyt { margin:auto; padding: 2px; text-align: center;color=#99dbaa;}
 #boora{ border-radius: 80% / 10% 10% 0 0; transition: .2s; }
 #boora:hover {border-radius: 25%;}
