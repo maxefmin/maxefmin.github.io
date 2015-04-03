@@ -1,5 +1,4 @@
 
-
   $(function() {
   // run the currently selected effect
     function runEffect() {
@@ -12,7 +11,7 @@
       if ( selectedEffect === "scale" ) {
         options = { percent: 100 };
       } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 280, height: 285 } };
+        options = { to: { width: 480, height: 385 } };
       }
        // run the effect
       $( "#effect" ).show( selectedEffect, options, 500, callback );
@@ -22,7 +21,7 @@
     function callback() {
       setTimeout(function() {
         $( "#effect:visible" ).removeAttr( "style" ).fadeOut();
-      }, 8000 );
+        }, 6000 );
     };
  
     // set effect from select menu value
@@ -38,3 +37,5 @@
       })
     
     });
+    
+ 
