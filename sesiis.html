@@ -11,48 +11,34 @@
 <body>
   <div class="hela_sivu_1">
     <header>
-         <h1>Kokeiluja web sisällön tuottamisesta käyttäen <br>HTML5 + JavaScript + Css + kaikki mahdollinen apu verkosta!</h1>
+         <h1>Kokeiluja web sisällön tuottamisesta käyttäen </h1><br><h2>HTML5 + JavaScript + Css + kaikki mahdollinen apu verkosta!</h2>
     </header>
-  
-  <section id="silita">
-      <fieldset class="paasivus-0.1" id="boora">
-            <header>
-              <h4 id="lyhyt">Lyhyesti sivusta.</h4>
-      <h2 id="selit"><br>Tällä sivullani muutama jQuery/ jQueryUI keino HTML5:n sivun rakenteen käsittelyyn. <br>Lisäksi hieman tietoa taidegrafiikan menetelmistä.<br>Tutustu kaikessa rauhassa ja käytä allaolevia linkkejä oikeille lähteille.</h2>
-      </header>
-  </section>
-  <!--<button style="color:red;" onclick="traiteClick()">Painonappi!
-          </button><p>'Koti'-linkeillä saat otsikot ennalleen!</p>-->
-       
-  <header><h2 style="color:rgba(23, 125, 48, 0.10);">Navigointi</h2></header><section id="navibar"><div><p> CSS:n border-radius - <br>kehyksien animointia </p>
-    <div id="v_nav_bar-1">
-    <a href="sesiis.html">Koti</a><br>
-    <br><a href="http://jquery.com/">jQuery.com</a><br>
-    <a href="http://jqueryui.com/development/">jQueryui.com/development</a><br>
-    <br><a href="http://fi.wikipedia.org/wiki/Silkkipaino">Silkkipaino</a><br>
-    <a href="http://fi.wikipedia.org/wiki/Kohopaino">Kohopaino</a>
-  </div></section></div>
-  
-  <!--<section id="silita-1">
-      <header>
-        <h3 style="color:rgba(233, 225, 48, 0.40);">Pohjoinen </h3>
-      </header>
-      <div><header><h3>Pieni lisä!</h3></header>
-      </div><div><p></p></div>
-    <p></p>
-</section>-->
-    
-</fieldset>
-</section>
-<fieldset class="paasivus-0.0" id="boura">
-    <section id="selit1">
+    <fieldset class="paasivus-0.0" id="boura">
+      <section>
+    <header  id="paa_nav" >
+      <h2 style="color:rgba(23, 125, 48, 0.10);">Navigointi</h2>
+    </header><p></p>
+      <div class="important" id="v_nav_bar">
+          <a href="sesiis.html">Koti</a><p></p>
+          <a href="http://jquery.com/">jQuery.com</a><p></p>
+          <a href="http://jqueryui.com/development/">jQueryui.com/<br>development</a><p></p>
+          <a href=""><br>empty</a><p></p>
+      </div>
+  <div id="selit1">
       <div class="toggler">
       <div id="effect" class="ui-widget-content ui-corner-all">
     <h3 class="ui-widget-header ui-corner-all">Web suunnittelu</h3>
-     <h3 style="color: rgba(26, 74, 53, 0.71);"> HTML5 - web-dokumenttien kuvauskieli on merkittävä parannus aiempiin versioihin.<br> JavaScript-ohjelmointi on tehokas keino hyödyntää HTML5:n ominaisuuksia!<br> jQuery ja jQueryUI frameworkit vähentävät  koodaamista omilta osiltaan<br>ja helpottavat näin sivujen luontia. CSS/LESS maustavat kaiken kauniisti!<br>Tulen myöhemmin ottamaan mukaan muitakin hienouksia!
-      <br>HTML5 + JavaScript + CSS sekä jQuery- ja jQueryUI ohjelmointikirjastot <br>helpottavat ja nopeuttavat web-sivujen luontia!<br>Nämä sivuni tulevat kokemaan jatkuvia muutoksia taitojeni karttuessa!<br><br> ELÄMÄ ON MUUTOS !<br>ja häviävän kaunista...</h3></div></div>
-  <p>Meitä kelpaa kokeilla!</p>
-  <select name="effects" id="effectTypes">
+     <h3 style="color: rgba(26, 74, 53, 0.71);"> HTML5 - web-dokumenttien kuvauskieli on merkittävä parannus aiempiin versioihin.<br> JavaScript-ohjelmointi auttaa dynaamisuuden lisäämisessä sivuille!<br> jQuery ja jQueryUI frameworkit vähentävät  koodin kirjoittamista omilta osiltaan.<br><br> CSS/LESS maustavat kaiken kauniisti !<br>Käyttäjien vaatimukset kasvavat ja laitteiden kirjo on lyhyessä ajassa kasvanut räjähdysmäisesti!<br><p>Luotettavan ja vikaantumista sietävän ohjelmoinnin tarve on suunnaton.</p>
+    <br><br><br> ELÄMÄ ON MUUTOS !<br>ja häviävän kaunista...</h3><p>Nämä sivuni tulevat kokemaan jatkuvia muutoksia taitojeni karttuessa!</p></div></div>
+  <section>
+    <header><h2>Sisältöä! Paina nappia!</h2></header>
+    <!--<p>Sijoitetaan myöhemmin!</p>
+         <button style="color:red";>Painettava!s
+          <p>'Koti'-linkki palautta alkuun!</p></header>
+       <h4 id="otsikko" class="important"> * * *  </h4></header>
+       ...style="margin-left=10px; position=relative;"...-->
+    </section><p><br><button id="button" class="ui-state-default ui-corner-all">Just 6 sec.</button>
+  <select name="effects" id="effectTypes"></p>
   <option value="blind">Verho alas</option>
   <option value="bounce">Kimpoova</option>
   <option value="clip">Nouseva</option>
@@ -67,23 +53,41 @@
   <option value="size">Suurenee</option>
   <option value="slide">Laidasta</option>
 </select>
-<br><button id="button" class="ui-state-default ui-corner-all">Just 6 sec.</button>
-   
+
+   </div>
     </section>
-    <section>
-    <header><h2>Way up north!</h2></header>
-    <!--<p>Sijoitetaan myöhemmin!</p>
-         <button style="color:red";>Painettava!s
-          <p>'Koti'-linkki palautta alkuun!</p></header>
-       <h4 id="otsikko" class="important"> * * *  </h4></header>
-       ...style="margin-left=10px; position=relative;"...-->
-    </section>
+    
 </fieldset>
+  
+  <section id="silita">
+      <fieldset class="paasivus-0.1" id="boora">
+            <header>
+              <h4 id="lyhyt">Lyhyesti sivusta.</h4>
+      <h2 id="selit"><br>Tällä sivullani muutama jQuery/ jQueryUI keino HTML5:n sivun rakenteen käsittelyyn. <br>Lisäksi hieman tietoa taidegrafiikan menetelmistä.<br>Tutustu kaikessa rauhassa ja käytä allaolevia linkkejä oikeille lähteille.</h2>
+      </header>
+  </section>
+  <!--<button style="color:red;" onclick="traiteClick()">Painonappi!
+          </button><p>'Koti'-linkeillä saat otsikot ennalleen!</p>-->
+       
+  
+  
+  <!--<section id="silita-1">
+      <header>
+        <h3 style="color:rgba(233, 225, 48, 0.40);">Pohjoinen </h3>
+      </header>
+      <div><header><h3>Pieni lisä!</h3></header>
+      </div><div><p></p></div>
+    <p></p>
+</section>-->
+    
+</fieldset>
+</section>
+
 <fieldset>
 <article id="silita_0.1">
-  <section style="margin-left=308px; position=absolute;">
+  <section style="margin-left=108px; position=relateve;">
       <header><h3>Toivottavasti viidyt ja innostut web:in tuomista mahdollisuuksista!<br>
-Viereinen 'accordeon avuke' on jqueryUI:n sivulta demo, jota hieman muokkasin!</h3>
+Soveltamani 'accordeon avuke' on jqueryUI:n sivulta demo, jota hieman muokkasin!</h3>
     </header>
   </section>
 <section>
@@ -93,6 +97,8 @@ Viereinen 'accordeon avuke' on jqueryUI:n sivulta demo, jota hieman muokkasin!</
         <ul><li>Kohopaino - esimerkkejä ovat puupiirros, linoleikkaus ja leimasin</li>
             <li>Syväpaino - esimerkkejä ovt kuparikaiverrus, kuivaneulakaiverrus ja etsaus(syövytys)</li>
             <li>Serigrafia - sabluunan avulla väriä levitetään vain haluttuihin kohtiin</li>
+            <p><a href="http://www.taidegraafikot.fi/taidegrafiikka_serigrafia.html">Serigrafia</a></p>
+            <p><a href="http://fi.wikipedia.org/wiki/Silkkipaino">Silkkipaino</a></p><p></p>
             <li>Laakapaino - esimerkkejä ovat valopaino, litografia ja offset-paino</li>
         </ul> 
   </div>
@@ -103,49 +109,48 @@ Viereinen 'accordeon avuke' on jqueryUI:n sivulta demo, jota hieman muokkasin!</
   </div>
   <h3>Metalligrafiikan menetelmät</h3>
   <div><p>
-    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    Metalligrafiikan moninaisista menetelmistä kuin muistakin taidegrafiikan menetelmistä on kattavat kuvaukset täältä avautuvilla linkeillä.
     </p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
+    <ul><li>Mekaaniset eli kaiverrusmenetelmät:<ul>
+      <li>Kuparikaiverrus</li>
+      <li>Kuivaneula</li>
+      <li>Mezzotinto</li>
+    </ul><p></p>
+    <ul><li>Syövytysmenetelmät:<ul>
+      <li>Viivasyövytys eli etsaus</li>
+      <li>Pehmeäpohja</li>
+      <li>Akvatinta</li>
+    </ul><p><a href="http://www.taidegraafikot.fi/taidegrafiikka_syvapaino.html">www.taidegraafikot.fi<br></a><p></p>
   </div>
-  <h3>Syväpaino</h3>
-  <div><p>    Syväpaino menetelmä on täysin päinvastainen painotakniikka kohopainolle. Kuva muodostuu nyt nimenomaisesti metalliselle painolaatalle kaiverretuista tai etsatuista piirroksista. Värin levityksellä laatalle ja siitä liian värin poispyyhkimisellä saadaan kaiverrettuihin tai etsattuihin osiin jäänyt väri painettaessa siirtymään paperille kuvaksi.  Vivamus non quam. In suscipit faucibus urna.
-    </p>
+  <h3>Syväpainomenetelmä</h3>
+  <div><p>Syväpainomenetelmä on täysin päinvastainen painotakniikka kohopainolle. Kuva muodostuu nyt nimenomaisesti metalliselle painolaatalle kaiverretuista tai etsatuista piirroksista. Värin levityksellä laatalle ja siitä liian värin poispyyhkimisellä saadaan kaiverrettuihin tai etsattuihin osiin jäänyt väri painettaessa siirtymään paperille kuvaksi. <p><a href="http://www.taidegraafikot.fi/taidegrafiikka_syvapaino.html">www.taidegraafikot.fi Syväpaino</a><p></p> 
   </div>
-  <h3 style="color">Kohopaino menetelmä</h3>
+  <h3 style="color">Kohopainomenetelmä</h3>
   <div><p>
     Kohopainossa kuva-aihe on painolaatasta hieman kohollaan eli sitä alemmat osat eivät painettaessa kosketa paperia ja näin ne toistuvat valkoisina pintoina painettaessa.<br>
     </p>
     <p>
-    Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-    mauris vel est. Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+    <p><a href="http://fi.wikipedia.org/wiki/Kohopaino">Kohopaino</a></p><p><a href="http://www.taidegraafikot.fi/Taidegrafiikka-kohopaino.html">www.taidegraafikot.fi</a></p>
     </p>
   </div>
 </div>
 </section>
 </article>
-</fieldset><p>application</p>
+</fieldset><p>application, function, functional, resilient, responsive, asynchronous, </p>
 <h2 id="omaOtsikko" style="color: #1952A4;">Leikkikenttäni jipoille!</h2>
 <div id="palaus"><a href="sesiis.html">PALAUTA</a></div><fieldset class="paasivus-0.0" id="boora">
-<section id="navibarr"><div><header><h4 style="color:rgba(23, 225, 48, 0.60);">Here are some helpers whom I'm following!</h4></header>
-<a href="https://www.agilelearner.com/">
-<br>Great presentations on<br> how to make better code!</a><p>https://www.agilelearner.com</p><br><br><div><header><h4>Watch in YouTube these presentations!</h4></header>
-<section>
+<section id="navibarr"><div><header><h4 style="color:rgba(23, 225, 48, 0.60);">Here are some helpers whom I'm following!</h4></header><fieldset stle="border: 5px;">
+<a href="https://www.agilelearner.com/">https://www.agilelearner.com
+<br>Great presentations on<br> how to make better code!</a><br><div></fieldset><header><h4>Go to YouTube and watch these presentations!</h4></header>
+<section><p>You are welcome to do some copying and pasting - that's how it goes:</p>
   <ul><li>Martin Odersky: Scala with Style</li>
   <li>SF Scala: Martin Odersky, Scala -- the Simple Parts</li>
-  <li>Sadek Aldrobi - Non-blocking, composable and reactive realtime web</li>
+  <li>Sadek Aldrobi - Non-blocking, composable and reactive realtime web</li><p>Here after - 21min 13sec - Sadek explains about the short history of the web! </p>
 </ul></section></fieldset></div></div>
 </section>
 <!--<div id="effect" class="ui-widget-content ui-corner-all">-->
 <div style=" width: 100% ; ">
-    <h3 class="ui-widget-header ui-corner-all">esittely ja mietelmiä</h3><div>
+    <h2 class="ui-widget-header ui-corner-all">Esittely ja mietelmiä<br> Introduction and sitations</h2><div>
     <p style="color:#9ac011;">Lyhyt esittely:<br> Olen itsenäisesti opiskellut web-suunnittelijan hommia,
        kiitos avoimen lähdekoodin - se on mahdollistanut etenemiseni.<br> Lähtökohtani uuteen ammatinvalintaani ovat kaukana 80-luvulla...<br><br>Kerro mielipiteesi! <strong>jrunila(at)gmail.com <br></strong> Twitter:<strong>(at)emescycle</strong></p>
     <p>Short intro:<br> I have been learning for web-developement techniques by myself, thanks to the open software projects. <br>For me to start anew profession the roots go back to the 80's...<br>Feel free to drop me a line: <strong>jrunila(at)gmail.com</strong><br>
@@ -177,11 +182,27 @@ Viereinen 'accordeon avuke' on jqueryUI:n sivulta demo, jota hieman muokkasin!</
   <div><p>Don't bother these trics up here aren't working in this version!</p></div>-->
      <div id="paasi-fo"> 
       <div></div>
-        <div></div></div>
-<footer class="sivu-kivijalka">
-  <div class="wrap">
+        <div><aside id="how">
+<section id="rest"><header>My google+ profile:</header>
+<a href="https://plus.google.com/u/0/116536708940135439785/?rel=author">Google</a>
+<div>
+<figure>
+  </figure>
+</div>
+</section></aside>
+<footer>
+<details><div class="wrap">
   <span style="font-size:x-small, color: #5e9411;">Sivunluonti J. Runila </span>
 </div>
+<summary>
+Feel free to contact me<br>
+.. My email: jrunila(at)gmail.com .. <br>
+- this page was edited and coded by J R -
+</summary>
+</details>
+</footer></div></div>
+<footer class="sivu-kivijalka">
+  
   <div></div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
