@@ -1,7 +1,8 @@
 html,body,.hela_sivu_1{ 
-						display: block;  
-						margin-right: 1.1em; 
-						margin-bottom: 1.5em; 
+						display: block;
+						max-width: 1000px;  
+						margin-left: auto; 
+						margin-right: auto;
 						background-color: #c44032;
 					}
 fieldset,#valin-0.1,#palaus {
@@ -11,7 +12,7 @@ fieldset,#valin-0.1,#palaus {
 						width:70%;
 						background-color: #9ac0dd;
 					}
-header,.cell,.paasivus-0.1 {
+header,.cell,.paasivus-0.0 {
 						display:inline-block; 
 						margin-left:40px; 
 						padding: 10px; 
@@ -24,8 +25,11 @@ header,.cell,.paasivus-0.1 {
 						width:280px;
 					}
 table, td{				display: inline-block;
-						border: 1px solid rgba(236, 170, 156, 0.6);
+						border-collapse: separate;
 					}
+.poks-taulu			{ border: 1px solid rgba(236, 170, 156, 0.6); 
+					}
+.poks-cell td    	{ border: 3px solid rgba(236, 170, 156, 0.6);}
 
 a:hover{			margin:0; 
 						color:orange;
@@ -42,10 +46,9 @@ body,#paasi-foot,{
 }
 #boura:hover {border-radius: 10%;} 
 .toggler { 				display: inline-block; 
-						margin-top: 2.5em; 
-						margin-left: 160px; 
+						margin:auto ;  
 						width: 850px; 
-						height: 370px; 
+						height: 300px; 
 						border-radius: 0.5%;}
 #accordion { 			width: 500px; 
 						margin-left:30px; 
@@ -54,16 +57,18 @@ body,#paasi-foot,{
 #paa_nav, #button { 	margin-right:3.3em; 
 						text-decoration: none; 
 					}
+.sisen_0 { 			white-space:pre; 
+}
 #paa_nav, #button:hover {color:red; position: relative;}
-#effect { margin-right: 2.2em; width: 870px; height: 350px; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
+#effect { margin:auto; width: 850px; height: 280px; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
 #effectTypes { width: 140px; height: 20px; position: relative; text-align: center;}
-section{ margin: 3px; padding: 1px; text-align: auto; position:relative; border-radius: 6%;}
+section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}
 #selit,{ display:block; margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(20, 255, 208, 0.6);}
-h1,h2,h3,h4,p,#lyhyt { margin:auto; padding: 5px; text-align: center; color:#99dbaa; border-radius: 15%;}
+h1,h2,h3,h4,p,#lyhyt { margin:auto; padding:5px; text-align: center; color:#99dbaa; border-radius: 45%;}
 *.shadow { text-shadow:#999999 5px 5px 5px;}
 #otsikko,#omaOtsikko{margin-left: 10px; width:508; position: relative; text-align:left; }
 aside,#silita,{ display: inline-block; margin-right: 230px; width: 550px; position: relative; }
-#silita-1{ margin-left: 1em; width: 600px; position: relative;}
+#silita-0.1{ margin:auto; width: 300px; position: relative;}
 #ui-id-2 { background: #5ec089; margin:10px; border-radius: 30px;}
 #ui-id-4 { background: #5ec079; margin:10px; border-radius: 30px;}
 #ui-id-6 { background: #5ec069; margin:10px; border-radius: 30px;}
