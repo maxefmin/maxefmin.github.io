@@ -14,7 +14,7 @@
         options = { to: { width: 480, height: 385 } };
       }
        // run the effect
-      $( "#effect" ).show( selectedEffect, options, 500, callback );
+      $( "#effect" ).show( selectedEffect, options, 1100, callback );
     };
  
     //callback function to bring a hidden box back
@@ -30,12 +30,15 @@
     });
  
     $( "#effect" ).hide();
-
+  
+    //hide v_nav_bar
+     $( "#v_nav_bar").show();
+    
     $(function() {
     
     $( "#accordion" ).accordion();
       })
     
     });
-    
+  
  
