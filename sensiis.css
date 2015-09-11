@@ -51,7 +51,7 @@ body,#paasi-foot,{
 						height: 300px; 
 						border-radius: 0.5%;}
 #accordion { 			width: 850px; 
-						margin-left:30px; 
+						margin:auto; 
 						position:relative; 
 					}
 #paa_nav, #button { 	margin-right:3.3em; 
