@@ -28,7 +28,7 @@ table, td{				display: inline-block;
 						border-collapse: separate;
 					}
 .poks-taulu			{ border: 1px solid rgba(236, 170, 156, 0.6);
-					background-color: rgba(63, 170, 165, 0.3);
+					background-color: rgba(20, 630, 262, 0.6);
 					}
 .poks-cell td    	{ border: 3px solid rgba(236, 170, 156, 0.6);}
 
