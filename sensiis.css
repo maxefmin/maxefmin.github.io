@@ -14,18 +14,18 @@ fieldset,#valin-0.1,#palaus {
 						background-color: #9ac0dd;
 					}
 header,.cell,.paasivus-0.1 {
-						display:inline-block; 
+						display:block; 
 						margin-left:40px; 
 						padding: 10px; 
 						width:150px;
 					}
 .paasivus-0.1 {
-						display:inline-block; 
+						display:block; 
 						margin-right:3em; 
 						padding: 10px; 
 						width:280px;
 					}
-table, td{				display: inline-block;
+table, td{				display: block;
 						border-collapse: separate;
 					}
 .poks-taulu			{ border: 1px solid rgba(236, 170, 156, 0.6);
