@@ -3,6 +3,7 @@ html,body,.hela_sivu_1{
 						max-width: 1000px;  
 						margin-left: auto; 
 						margin-right: auto;
+						font-family: arial, verdana, sans-serif;
 						background-color: #c44032;
 					}
 fieldset,#valin-0.1,#palaus {
@@ -86,4 +87,15 @@ aside,#silita,{ display: inline-block; margin-right: 230px; width: 550px; positi
 #v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
 
 
-/* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% } */
+/* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% } 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" >
+<div class="maini">
+    <header>
+         <h1 class="shadow">Kokeiluja web sisällön tuottamisesta käyttäen </h1>
+ <p id="slem"> Kokeillaanpa uusiksi!</p>
+    </header>
+
+
+    */
+
