@@ -61,7 +61,8 @@ a:hover{			margin:auto;
 #paa_nav, #button { 	margin-right:3.3em; 
 						text-decoration: none; 
 					}
-.sisen_0 { 			white-space:pre; 
+.sisen_0 { 			white-space:pre;
+				text-align:center;
 }
 #paa_nav, #button:hover {color:red; position: relative;}
 #effect { margin:auto; width: 350px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
