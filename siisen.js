@@ -21,7 +21,7 @@
     function callback() {
       setTimeout(function() {
         $( "#effect:visible" ).removeAttr( "style" ).fadeOut();
-        }, 6000 );
+        }, 10000 );
     };
  
     // set effect from select menu value
