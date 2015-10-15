@@ -1,23 +1,22 @@
-html,body,.hela_sivu_1{ 
+html,body,section,.hela_sivu_1{ 
 						display: block;
-						max-width: 380px;  
+						max-width: 388px;  
 						margin-left: auto; 
 						margin-right: auto;
-						font-family: arial, verdana, sans-serif;
+						font-family: Times, Helvetica, sans-serif;
 						background-color: #c44032;
 					}
-fieldset,#valin-0.1,#palaus {
+#valin-0.1,#palaus {
 						display:block; 
 						margin:auto; 
-						/* padding: 4px;*/ 
+						/*padding: 4px;*/ 
 						width:50%;
 						background-color: #9ac0dd;
 					}
-header,.cell,.paasivus-0.1 {
-						display:block; 
-						margin-left:40px; 
-						padding: 10px; 
-						width:150px;
+header,.cell,.paasivus-0.1 {			display:block; 
+						margin:auto; 
+						padding:auto; 
+						/*width:150px;*/
 					}
 .paasivus-0.1 {
 						display:block; 
@@ -28,75 +27,59 @@ header,.cell,.paasivus-0.1 {
 table, td{				display: block;
 						border-collapse: separate;
 					}
-.poks-taulu			{ border: 1px solid rgba(236, 170, 156, 0.6);
-					background-color: rgba(20, 630, 262, 0.6);
+.poks-taulu			{ border: 3px solid rgba(236, 170, 156, 1);
+						background-color: rgba(20, 630, 262, 0.6) 
 					}
-.poks-cell td    	{ border: 3px solid rgba(236, 170, 156, 0.6);}
+.poks-cell td    	{ border: 3px solid rgba(206, 170, 156, 0.6);}
 
 a:hover{			margin:auto; 
 						color:orange;
 					}
 #paasi-foot,{ 
-	background-color: rgba(36, 170, 156, 0.3); 
-	margin:auto; 
-	color: rgba(26, 74, 53, 0.71);
-					
-}
-#boora{ 				
-	border-radius: 40px;
-					
-}
-/* #boora:hover {border-radius: 30%;} */
-#boura{ 				
-	border-radius: 100px /50% 50% 0 0 transition 0.3;
-}
-#boura:hover {
-	border-radius: 10%;
-	
-} 
-.toggler { 				
-	display: block; 
-	margin:auto ;  
-	margin-left:auto;
-	margin-right:auto;  
-	width: auto; 
-	height: auto; 
-	border-radius: 0.5%;
-	
-}
-#accordion { 			
-	width: 350px; 
-	margin:auto; 
-	position:relative; 
-					
-}
-#paa_nav, #button { 	
-	margin-right:3.3em; 
-	text-decoration: none; 
+						background-color: rgba(36, 170, 156, 0.3); 
+						margin:auto; 
+						color: rgba(26, 74, 53, 0.71);
 					}
-					
-#paa_nav, #button:hover {
-	color:red; position: relative;
-	
+fieldset,#boora{ 				border-radius: 10px;
+					} 
+/* #boora:hover {border-radius: 30%;} */
+#boura{ 				border-radius: 100px /50% 50% 0 0 transition 0.3;
+}
+/* #boura:hover {border-radius: 10%;} */ 
+.toggler { 				display: block; 
+						margin-left:auto;
+						margin-right:auto;  
+						width: auto; 
+						height: auto; 
+						border-radius: 0.5%;}
+#accordion { 	width: 358px; 
+						margin:auto;
+						position:relative;
+					}
+#paa_nav, #button { 	margin-right:3.3em; 
+						text-decoration: none; 
+					}
+#paa_nav, #button:hover {color:red; position: relative;
 }
 #effect { 
-	margin:auto; width: 350px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
+	margin:auto; width: 358px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
 #effectTypes { width: 140px; height:auto; position: relative; text-align: center;}
-section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}
+/*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
 #selit,{ display:block; margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(20, 255, 208, 0.6);}
-h1,h2,h3,h4,p,#lyhyt { margin-top:auto;margin-bottom:auto; padding:5px; text-align: center; color:#99dbaa; border-radius: 25%;}
+h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:5px; text-align: center; outline:none; color:#adfbaa; border-radius: 25%;}
+a,span {margin-top:auto; margin-bottom:auto; padding:2px; text-align: center;color:rgba(20, 630, 262, 0.6)}
 *.shadow { text-shadow:#999999 5px 5px 5px;}
-#otsikko,#omaOtsikko{margin: auto; width:auto; position: relative; text-align:left; }
-aside,#silita,{ display: inline-block; margin-right: 230px; width: 350px; position: relative; }
-#silita-0.1{ margin:auto; width: 100%; position: relative;}
-#ui-id-2 { background: #5ec089; margin:10px; border-radius: 30px;}
-#ui-id-4 { background: #5ec079; margin:10px; border-radius: 30px;}
-#ui-id-6 { background: #5ec069; margin:10px; border-radius: 30px;}
-#ui-id-8 { background: #5ec059; margin:10px; border-radius: 30px;}
-#ui-id-10{ background: #5ec049; margin:10px; border-radius: 30px;}
-.important { margin-top: 20px;margin-left: 10px; color:#0918dd; width: 200px; height: 280px; border-radius: 40px; position:relative;}
+#otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
+aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
+#silita-0.1{ margin:auto; width:100%; position: relative;}
+#ui-id-2 { background: #2ec089; margin:10px; border-radius: 20px; border-spacing: 5;}
+#ui-id-4 { background: #3ec079; margin:10px; border-radius: 10px;}
+#ui-id-6 { background: #4ec069; margin:10px; border-radius: 20px;}
+#ui-id-8 { background: #5ec059; margin:10px; border-radius: 10px;}
+#ui-id-10{ background: #6ec049; margin:10px; border-radius: 20px;}
+.important { margin-top: 20px;margin-left: 10px; color:#0918dd; width: 200px; height: auto; border-radius: 40px; position:relative;}
 
-    #v_nav_bar a { margin:5px;padding:2px; font-style:italic; display: block; width:100px; border-radius: 10px; position:relative;}
+    #v_nav_bar a { margin:5px;padding:2px; font-style:italic; display: block; width:auto; border-radius: 10px; position:relative;}
     #v_nav_bar a:link { color:#2599d0; background-color: #1893ba; }
     #v_nav_bar a:visited { color:rgba(128, 203, 196, 0.62); background-color: #1893ba; }
     #v_nav_bar a:hover { color:#99d0d0; background-color: #1e93ba;}
@@ -105,15 +88,4 @@ aside,#silita,{ display: inline-block; margin-right: 230px; width: 350px; positi
 #v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
 
 
-/* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% } 
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" >
-<div class="maini">
-    <header>
-         <h1 class="shadow">Kokeiluja web sisällön tuottamisesta käyttäen </h1>
- <p id="slem"> Kokeillaanpa uusiksi!</p>
-    </header>
-
-
-    */
-
+/* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% } */
