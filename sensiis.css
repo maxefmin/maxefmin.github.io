@@ -68,7 +68,7 @@ fieldset,#boora{ 				border-radius: 10px;
 #selit,{ display:block; margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(20, 255, 208, 0.6);}
 h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:5px; text-align: center; outline:none; color:#adfbaa; border-radius: 25%;}
 a,span {margin-top:auto; margin-bottom:auto; padding:2px; text-align: center;color:rgba(20, 630, 262, 0.6)}
-*.shadow { text-shadow:#999999 5px 5px 5px;}
+*.shadow { text-shadow:#999111 5px 5px 5px;}
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
 aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
 #silita-0.1{ margin:auto; width:100%; position: relative;}
