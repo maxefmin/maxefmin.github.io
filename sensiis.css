@@ -4,7 +4,7 @@ html,body,section,.hela_sivu_1{
 						margin-left: auto; 
 						margin-right: auto;
 						font-family: Times, Helvetica, sans-serif;
-						background-color: #c44032;
+						background-color: #a44032;
 					}
 #valin-0.1,#palaus {
 						display:block; 
@@ -28,7 +28,7 @@ table, td{				display: block;
 						border-collapse: separate;
 					}
 .poks-taulu			{ border: 3px solid rgba(236, 170, 156, 1);
-						background-color: rgba(105, 119, 152, 0.8) 
+						background-color: rgba(20, 630, 262, 0.6) 
 					}
 .poks-cell td    	{ border: 3px solid rgba(206, 170, 156, 0.6);}
 
@@ -62,7 +62,7 @@ fieldset,#boora{ 				border-radius: 10px;
 #paa_nav, #button:hover {color:red; position: relative;
 }
 #effect { 
-	margin:auto; width: 358px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
+	margin:auto; width: 358px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(36, 106, 220, 0.6);border-radius: 2.5%;}
 #effectTypes { width: 140px; height:auto; position: relative; text-align: center;}
 /*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
 #selit,{ display:block; margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(20, 255, 208, 0.6);}
@@ -86,6 +86,10 @@ aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
     #v_nav_bar a:active { color:#aa99d0; background-color: #1893ba;}
 
 #v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
+
+
+/* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% } */
+
 
 
 /* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% } */
