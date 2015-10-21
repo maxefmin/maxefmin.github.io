@@ -3,15 +3,15 @@ html,body,section,.hela_sivu_1{
 						max-width: 388px;  
 						margin-left: auto; 
 						margin-right: auto;
-						font-family: Times, Helvetica, sans-serif;
-						background-color: #a44032;
+						font-family: Arial, Helvetica, sans-serif;
+						background-color:rgba(170, 70, 59, 1);
 					}
 #valin-0.1,#palaus {
 						display:block; 
 						margin:auto; 
 						/*padding: 4px;*/ 
 						width:50%;
-						background-color: #9ac0dd;
+						/*color: #0ac00d;*/
 					}
 header,.cell,.paasivus-0.1 {			display:block; 
 						margin:auto; 
@@ -26,21 +26,26 @@ header,.cell,.paasivus-0.1 {			display:block;
 					}
 table, td{				display: block;
 						border-collapse: separate;
+						font-family: Verdana, Helvetica, sans-serif;
+						font-style: italic;
 					}
-.poks-taulu			{ border: 3px solid rgba(236, 170, 156, 1);
-						background-color: rgba(20, 630, 262, 0.6) 
+.poks-taulu			{ border: 3px solid rgba(236, 170, 156, 0.81);
+						background-color: rgba(80, 106, 81, 0.74) 
 					}
-.poks-cell td    	{ border: 3px solid rgba(206, 170, 156, 0.6);}
+.poks-cell td    	{ border: 3px solid rgba(26, 170, 156, 0.6);
+						background-color: rgba(13, 151, 170, 0.15)
+					    }
 
 a:hover{			margin:auto; 
-						color:orange;
+					color:yellow;
+
 					}
 #paasi-foot,{ 
 						background-color: rgba(36, 170, 156, 0.3); 
 						margin:auto; 
 						color: rgba(26, 74, 53, 0.71);
 					}
-fieldset,#boora{ 				border-radius: 10px;
+fieldset,#boora{ 		border-radius: 10px;
 					} 
 /* #boora:hover {border-radius: 30%;} */
 #boura{ 				border-radius: 100px /50% 50% 0 0 transition 0.3;
@@ -52,7 +57,7 @@ fieldset,#boora{ 				border-radius: 10px;
 						width: auto; 
 						height: auto; 
 						border-radius: 0.5%;}
-#accordion { 	width: 358px; 
+#accordion { 			width: 358px; 
 						margin:auto;
 						position:relative;
 					}
@@ -60,24 +65,30 @@ fieldset,#boora{ 				border-radius: 10px;
 						text-decoration: none; 
 					}
 #paa_nav, #button:hover {color:red; position: relative;
-}
+					}
 #effect { 
-	margin:auto; width: 358px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(36, 106, 220, 0.6);border-radius: 2.5%;}
+	margin:auto; width: 358px; height: auto; position: relative; color: navy;text-align: center;background-color:rgba(239, 181, 14, 0.80);border-radius: 2.5%;}
 #effectTypes { width: 140px; height:auto; position: relative; text-align: center;}
 /*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
 #selit,{ display:block; margin-top: 15px;  text-align: center; width:100%; position:relative;background-color:rgba(20, 255, 208, 0.6);}
-h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:5px; text-align: center; outline:none; color:#adfbaa; border-radius: 25%;}
-a,span {margin-top:auto; margin-bottom:auto; padding:2px; text-align: center;color:rgba(20, 630, 262, 0.6)}
-*.shadow { text-shadow:#999111 5px 5px 5px;}
+h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color:#adfbaa; border-radius: 25%;}
+a,span {margin-top:auto; margin-bottom:auto; padding:3px; text-align: center;color:rgba(84, 222, 70, 1)}
+*.shadow { text-shadow:rgba(200, 246, 142, 0.61) 6px 1px 5px;}
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
 aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
 #silita-0.1{ margin:auto; width:100%; position: relative;}
 #ui-id-2 { background: #2ec089; margin:10px; border-radius: 20px; border-spacing: 5;}
-#ui-id-4 { background: #3ec079; margin:10px; border-radius: 10px;}
+#ui-id-4 { background: #3ec079; margin:10px; border-radius: 20px;}
+#ui-id-4 #hide {color: #3ec079;}
 #ui-id-6 { background: #4ec069; margin:10px; border-radius: 20px;}
-#ui-id-8 { background: #5ec059; margin:10px; border-radius: 10px;}
+#ui-id-6 #hide {color: #4ec069;}
+#ui-id-8 { background: #5ec059; margin:10px; border-radius: 20px;}
+#ui-id-8 #hide {color: #5ec059;}
 #ui-id-10{ background: #6ec049; margin:10px; border-radius: 20px;}
-.important { margin-top: 20px;margin-left: 10px; color:#0918dd; width: 200px; height: auto; border-radius: 40px; position:relative;}
+#ui-id-10 #hide{ color: #6ec049;}
+#ui-id-12{ background: #7ec039; margin:10px; border-radius: 20px;}
+
+.important { margin-top: 20px;color:#0918dd; width: 200px; height: auto; border-radius: 40px; position:relative;}
 
     #v_nav_bar a { margin:5px;padding:2px; font-style:italic; display: block; width:auto; border-radius: 10px; position:relative;}
     #v_nav_bar a:link { color:#2599d0; background-color: #1893ba; }
