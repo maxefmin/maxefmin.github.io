@@ -1,5 +1,4 @@
-
-  $(function() {
+$(function() {
   // run the currently selected effect
     function runEffect() {
       // get effect type from
@@ -9,7 +8,7 @@
       var options = {};
       // some effects have required parameters
       if ( selectedEffect === "scale" ) {
-        options = { percent: 100 };
+        options = { percent: 60 };
       } else if ( selectedEffect === "size" ) {
         options = { to: { width: 480, height: 385 } };
       }
@@ -32,14 +31,15 @@
     $( "#effect" ).hide();
   
     //hide v_nav_bar
-     $( "#v_nav_bar").show();
+     //$( "#v_nav_bar").show();
     
     $(function() {
-    
-    $( "#accordion" ).accordion();
+      $( "#accordion" ).accordion();
       })
-    
     });
-  // It took me two consecutive days to lift my jaws up again, 
-  //so the third day after recovering a bit I started to hack.
- 
+    
+    $( "#clickme" ).click(function() {
+      $( "#back" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
