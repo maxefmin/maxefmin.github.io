@@ -6,6 +6,9 @@ header,.cell,.paasivus-0.1{display:block;margin:auto;padding:auto;}
 						padding: 10px; 
 						width:280px;
 					}
+ol,ul			{			list-style: none;
+	
+}
 .plaat				{
 						background-attachment:scroll;
 						background-color: rgba(115, 177, 208, 0.56);
