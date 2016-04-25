@@ -1,8 +1,8 @@
-jquery(function() {
+$(function() {
   // run the currently selected effect
     function runEffect() {
       // get effect type from
-      var selectedEffect = jquery( "#effectTypes" ).val();
+      var selectedEffect = $( "#effectTypes" ).val();
  
       // most effect types need no options passed by default
       var options = {};
@@ -13,33 +13,33 @@ jquery(function() {
         options = { to: { width: 480, height: 385 } };
       }
        // run the effect
-      jquery( "#effect" ).show( selectedEffect, options, 1100, callback );
+      $( "#effect" ).show( selectedEffect, options, 1100, callback );
     };
  
     //callback function to bring a hidden box back
     function callback() {
       setTimeout(function() {
-        jquery( "#effect:visible" ).removeAttr( "style" ).fadeOut();
+        $( "#effect:visible" ).removeAttr( "style" ).fadeOut();
         }, 10000 );
     };
  
     // set effect from select menu value
-    jquery( "#button" ).click(function() {
+    $( "#button" ).click(function() {
       runEffect();
     });
  
-    jquery( "#effect" ).hide();
+    $( "#effect" ).hide();
   
     //hide v_nav_bar
      //$( "#v_nav_bar").show();
     
-    jquery(function() {
-      jquery( "#accordion" ).accordion();
+    $(function() {
+      $( "#accordion" ).accordion();
       })
     });
     
-    jquery( "#clickme" ).click(function() {
-      jquery( "#back" ).slideToggle( "slow", function() {
+    $( "#clickme" ).click(function() {
+      $( "#back" ).slideToggle( "slow", function() {
     // Animation complete.
   });
 });
