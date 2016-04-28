@@ -1,19 +1,66 @@
+<<<<<<< Updated upstream
 html,body,section,.hela_sivu_1{display:block;max-width:388px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;background-color: #7CB5B5;background-image: "DPP_04.JPG";}
 #valin-0.1,#palaus {display:block;margin:auto;width:50%;}
 header,.cell,.paasivus-0.1{display:block;margin:auto;padding:auto;}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+html,body,section,.hela_sivu_1{display:block;max-width:388px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;background-color: rgba(119, 191, 191, 0.65);background-image: "DPP_04.JPG";}
+#valin-0.1,#palaus {display:block;margin:auto;width:50%;}
+header,.cell,.paasivus-0.1{display:block;margin:auto;padding:auto;}
+ol,ul{ list-style-type: none;
+}
+=======
+html,body,section,.hela_sivu_1{display:block;max-width:388px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;background-color: #7CB5B5;background-image: "DPP_04.JPG";}
+#valin-0.1,#palaus {display:block;margin:auto;width:50%;}
+header,.cell,.paasivus-0.1{display:block;margin:auto;padding:auto;}
+>>>>>>> origin/master
+=======
+html,body,section,.hela_sivu_1{display:block;max-width:388px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;background-color: #7CB5B5;background-image: "DPP_04.JPG";}
+#valin-0.1,#palaus {display:block;margin:auto;width:50%;}
+header,.cell,.paasivus-0.1{display:block;margin:auto;padding:auto;}
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 .paasivus-0.1{display:block; 
 						margin-right:3em; 
 						padding: 10px; 
 						width:280px;
 					}
+<<<<<<< Updated upstream
 ol,ul			{			list-style: none;
 	
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ol,ul			{			list-style: none;
+	
+}
+>>>>>>> origin/master
+=======
+ol,ul			{			list-style: none;
+	
+}
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 .plaat				{
 						background-attachment:scroll;
 						background-color: rgba(115, 177, 208, 0.56);
 }
+<<<<<<< Updated upstream
 #osane				{background-color: rgba(199, 169, 127, 0.59);font-variant: small-caps; letter-spacing: 1.2px;}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#osane				{background-color: rgba(199, 169, 127, 0.59);font-variant: small-caps; letter-spacing: 1.8px;}
+=======
+#osane				{background-color: rgba(199, 169, 127, 0.59);font-variant: small-caps; letter-spacing: 1.2px;}
+>>>>>>> origin/master
+=======
+#osane				{background-color: rgba(199, 169, 127, 0.59);font-variant: small-caps; letter-spacing: 1.2px;}
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 table, td{				display: block;
 						border-collapse: separate;
 						font-family: Verdana, Helvetica, sans-serif;
@@ -21,8 +68,23 @@ table, td{				display: block;
 						letter-spacing: 2px;
 					}
 .poks-taulu,#b_1	{
+<<<<<<< Updated upstream
 						border: 3px solid rgba(130, 49, 42, 0.75);
 						background-color: rgba(126, 169, 127, 0.4);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+						border: 3px solid rgba(67, 197, 78, 0.84);
+						background-color: rgba(89, 236, 231, 0.76);
+=======
+						border: 3px solid rgba(130, 49, 42, 0.75);
+						background-color: rgba(126, 169, 127, 0.4);
+>>>>>>> origin/master
+=======
+						border: 3px solid rgba(130, 49, 42, 0.75);
+						background-color: rgba(126, 169, 127, 0.4);
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 					}
 .poks-cell td    	{
 						border: 3px solid rgba(68, 142, 135, 0.6);
@@ -69,9 +131,27 @@ fieldset,#boora{ 		border-radius: 10px;
 #effectTypes { width: 120px; height:auto; position: relative; text-align: center;}
 /*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
 #selit1,{ display:block; margin-top: 15px;  text-align: center;letter-spacing: 0.8px; width:100%; position:relative;background-color:rgba(20, 255, 208, 0.6);}
+<<<<<<< Updated upstream
 h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color:rgb(180, 26, 26); border-radius: 25%;}
 a,span {margin-top:auto; margin-bottom:auto; text-align: center;color: rgba(150, 84, 68, 0.98);}
 *.shadow { text-shadow: rgba(56, 109, 214, 0.59) 6px 1px 5px;}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color: rgb(28, 37, 90); border-radius: 45%;}
+a,span {margin-top:auto; margin-bottom:auto; padding: 5px; text-align: center;color: rgba(150, 84, 68, 0.98);}
+*.shadow { text-shadow: rgba(64, 189, 138, 0.67) 6px 1px 5px;}
+=======
+h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color:rgb(180, 26, 26); border-radius: 25%;}
+a,span {margin-top:auto; margin-bottom:auto; text-align: center;color: rgba(150, 84, 68, 0.98);}
+*.shadow { text-shadow: rgba(56, 109, 214, 0.59) 6px 1px 5px;}
+>>>>>>> origin/master
+=======
+h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color:rgb(180, 26, 26); border-radius: 25%;}
+a,span {margin-top:auto; margin-bottom:auto; text-align: center;color: rgba(150, 84, 68, 0.98);}
+*.shadow { text-shadow: rgba(56, 109, 214, 0.59) 6px 1px 5px;}
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
 aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
 #silita-0.1{ margin:auto; width:100%; position: relative;}
@@ -97,6 +177,18 @@ aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
 #v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
 
 
+<<<<<<< Updated upstream
 /* PÄIVITETTY UUDELLEEN SISÄLLÖN JA PRESENTAATION OSALTA 23.11.2015 10.00-12.00
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/* PÄIVITETTY UUDELLEEN SISÄLLÖN JA PRESENTAATION OSALTA 23.10.2015 14.30-16.00
+=======
+/* PÄIVITETTY UUDELLEEN SISÄLLÖN JA PRESENTAATION OSALTA 23.11.2015 10.00-12.00
+>>>>>>> origin/master
+=======
+/* PÄIVITETTY UUDELLEEN SISÄLLÖN JA PRESENTAATION OSALTA 23.11.2015 10.00-12.00
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% }
 rgba(170, 70, 59, 1); alkup taustaväri?? */
