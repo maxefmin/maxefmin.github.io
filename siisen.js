@@ -37,32 +37,9 @@ $(function() {
       $( "#accordion" ).accordion();
       })
     });
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
    // $("#accordion").hide();
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
-    
     $( "#clickme" ).click(function() {
       $( "#back" ).slideToggle( "slow", function() {
     // Animation complete.
   });
 });
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-  // It took me two consecutive days to lift my jaws up again, 
-  //so the third day after recovering a bit I started to hack.
- 
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
