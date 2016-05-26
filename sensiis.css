@@ -1,24 +1,45 @@
-html,body,section,.hela_sivu_1{display:block;max-width:388px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;background-color: rgba(119, 191, 191, 0.65);}
-#valin-0.1,#palaus {display:block;margin:auto;width:50%;}
-header,.cell,.paasivus-0.1{display:block;margin:auto;padding:auto;}
-ol,ul{ list-style-type: none;
+html,body,section,.hela_sivu_1{
+	display:block;
+	max-width:388px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color: rgba(119, 191, 191, 0.65);
 }
-.paasivus-0.1{display:block; 
-						margin-right:3em; 
-						padding: 10px; 
-						width:280px;
-					}
+#valin-0.1,#palaus {
+	display:block;
+	margin:auto;
+	width:50%;
+}
+header,.cell{
+	display:block;
+	margin:auto;
+	padding:auto;
+}
+ol,ul{ 
+	list-style-type: none;
+	list-style: none;
+}
+.paasivus-0.1{
+	display:block; 
+	margin-right:3em; 
+	padding: 10px; 
+	width:280px;
+}
 
-ol,ul			{			list-style: none;
-	
-}
 .plaat				{
 						background-attachment:scroll;
 						background-color: rgba(115, 177, 208, 0.56);
 }
-#osane				{background-color: rgba(199, 169, 127, 0.59);font-variant: small-caps; letter-spacing: 1.8px;}
+#osane				{   background-color: rgba(199, 169, 127, 0.59);
+										  font-variant: small-caps; 
+										  letter-spacing: 1.8px;
+					}
+#clickme			{
+						cursor: -webkit-grab;
+}
 
-table, td{				display: block;
+table, td          {	display: block;
 						border-collapse: separate;
 						font-family: Verdana, Helvetica, sans-serif;
 						font-weight:bold;
@@ -103,4 +124,4 @@ aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
 #v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
 
 /* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% }
-rgba(170, 70, 59, 1); alkup taustaväri?? */
+rgba(170, 70, 59, 1); alkup taustavÃ¤ri?? */
