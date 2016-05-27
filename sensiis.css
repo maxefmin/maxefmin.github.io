@@ -31,7 +31,7 @@ ol,ul{
 						background-attachment:scroll;
 						background-color: rgba(115, 177, 208, 0.56);
 }
-#osane				{   background-color: rgba(199, 169, 127, 0.59);
+.osane				{   background-color: rgba(199, 169, 127, 0.59);
 										  font-variant: small-caps; 
 										  letter-spacing: 1.8px;
 					}
