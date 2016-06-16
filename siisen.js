@@ -1,3 +1,4 @@
+
 $(function() {
   // run the currently selected effect
     function runEffect() {
@@ -35,11 +36,12 @@ $(function() {
     
     $(function() {
       $( "#accordion" ).accordion();
-      })
-    });
+
     $("#accordion").hide();
     $( "#clickme" ).click(function() {
       $( "#back" ).slideToggle( "slow", function() {
     // Animation complete.
   });
 });
+});
+})();
