@@ -35,13 +35,14 @@ $(function() {
      //$( "#v_nav_bar").show();
     
     $(function() {
-      $( "#accordion" ).accordion();
-
+      $( "#accordion" ).accordion({
+        collapsible: true
+      });
+   });
     $("#accordion").hide();
     $( "#clickme" ).click(function() {
       $( "#back" ).slideToggle( "slow", function() {
     // Animation complete.
   });
-});
 });
 })();
