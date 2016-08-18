@@ -24,10 +24,8 @@ $(function(){
     $( "#v_nav_bar").show();
     
     $(function() {
-      $( "#accordion" ).accordion({
-        collapsible: true
-      });
-   });
+      $( "#accordion" ).accordion();
+   } );
     //$("#accordion").hide();
     $( "#clickme" ).click(function() {
       $( "#back" ).slideToggle( "slow", function() {
