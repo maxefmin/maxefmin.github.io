@@ -39,7 +39,7 @@ $(function() {
         collapsible: true
       });
    });
-    $("#accordion").hide();
+    //$("#accordion").hide();
     $( "#clickme" ).click(function() {
       $( "#back" ).slideToggle( "slow", function() {
     // Animation complete.
