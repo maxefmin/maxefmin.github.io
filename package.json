@@ -1,0 +1,25 @@
+{
+  "name": "maxefmini",
+  "version": "1.0.0",
+  "description": "\"My first React app!\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxefmin/maxefmin.github.io.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Redux",
+    "learn"
+  ],
+  "author": "J Runila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxefmin/maxefmin.github.io/issues"
+  },
+  "homepage": "https://github.com/maxefmin/maxefmin.github.io#readme"
+}
