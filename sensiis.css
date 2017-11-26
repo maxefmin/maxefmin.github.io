@@ -20,11 +20,12 @@ ol,ul{
 	list-style-type: none;
 	list-style: none;
 }
-.paasivus-0.1{
+.sisas{
 	display:block; 
-	margin-right:3em; 
-	padding: 10px; 
+	margin:1em; 
+	padding: 2px; 
 	width:280px;
+	height:500px;
 }
 
 .plaat				{
@@ -98,7 +99,7 @@ fieldset,#boora{ 		border-radius: 10px;
 #effectTypes { width: 120px; height:auto; position: relative; text-align: center;}
 /*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
 #selit1,{ display:block; margin-top: 15px;  text-align: center;letter-spacing: 0.8px; width:100%; position:relative;}
-h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color: rgba(199, 199, 49, 2); border-radius: 45%;}
+h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color: rgba(199, 199, 49, 2); text-shadow: rgba(2, 19, 38, 0.55) 3px 2px 5px;;border-radius: 45%;}
 a,span {margin-top:auto; margin-bottom:auto; padding: 5px; text-align: center;color: rgba(130, 234, 68, 1);}
 *.shadow { text-shadow: rgba(2, 19, 38, 0.55) 3px 2px 5px;}
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
