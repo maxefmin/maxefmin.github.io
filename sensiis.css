@@ -1,29 +1,27 @@
-html,body,section,.hela_sivu_1,.cell {
-	display:block;
-	max-width:388px;
+html,body {display:block;}
+div,section,.hela_sivu_1,.cell, .sisas {
+	display:flex;
+	justify-content:center;
 	margin-left:auto;
 	margin-right:auto;
 	font-family:Arial,Helvetica,sans-serif;
 	background-color: rgba(170,70,59,1);
 }
 #valin-0.1,#palaus{
-	display:block;
 	margin:auto;
 	width:50%;
 }
 header{
-	display:block;
 	margin:auto;
 	padding:auto;
 }
-ol,ul{ 
+ol,ul{
 	list-style-type: none;
 	list-style: none;
 }
 .sisas{
-	display:block; 
-	margin:1em; 
-	padding: 2px; 
+	margin:1em;
+	padding: 2px;
 	width:280px;
 	height:500px;
 }
@@ -33,7 +31,7 @@ ol,ul{
 						background-color: rgba(195, 177, 208, 0.56);
 }
 .osane				{   background-color: rgba(59, 69, 107, 0.59);
-										  font-variant: small-caps; 
+										  font-variant: small-caps;
 										  letter-spacing: 1.8px;
 										  border-radius: 5px;
 					}
@@ -41,7 +39,8 @@ ol,ul{
 						cursor: -webkit-grab;
 }
 
-table, td          {	display: block;
+table, td          {    display:flex;
+                        justify-content:inherit;
 						border-collapse: separate;
 						font-family: Verdana, Helvetica, sans-serif;
 						font-weight:bold;
@@ -59,42 +58,42 @@ table, td          {	display: block;
 						}
 .ui-widget-header,.ui-accordeon-header		{color: rgba(120, 229, 15, 2.99);}
 
-a:hover				{	margin:auto; 
+a:hover				{	margin:auto;
 						color:lightblue;
 						letter-spacing: 3px;
 						font-style:italic;}
-a img 				{  	
+a img 				{
 						opacity:0.4;
 						width:380px;}
-#paasi-foot,{ 
-						background-color: rgba(36, 170, 156, 0.3); 
-						margin:auto; 
+#paasi-foot,{
+						background-color: rgba(36, 170, 156, 0.3);
+						margin:auto;
 						color: rgba(226, 74, 53, 0.71);
 					}
 fieldset,#boora{ 		border-radius: 10px;
-					} 
-#boora:hover {border-radius: 30%;} 
+					}
+#boora:hover {border-radius: 30%;}
 /*
 #boura{ 				border-radius: 100px /50% 50% 0 0 transition 0.3;
 }*/
  #boura:hover {border-radius: 10%;}
 
-.toggler { 				display: block; 
+.toggler { 				display: block;
 						margin-left:auto;
-						margin-right:auto;  
-						width: auto; 
-						height: auto; 
+						margin-right:auto;
+						width: auto;
+						height: auto;
 						border-radius: 0.5%;}
-#accordion { 			width: 358px; 
+#accordion { 			width: 358px;
 						margin:auto;
 						position:relative;
 					}
-#paa_nav, #button { 	margin-right:3.3em; 
-						text-decoration: none; 
+#paa_nav, #button { 	margin-right:3.3em;
+						text-decoration: none;
 					}
 #paa_nav, #button:hover {color:red; position:relative;
 					}
-#effect { 
+#effect {
 	margin:auto; width: 358px; height:auto; position: relative; color: navy;text-align: center;background-color:rgba(139, 81, 14, 0.20);border-radius: 2.5%;}
 #effectTypes { width: 120px; height:auto; position: relative; text-align: center;}
 /*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
@@ -103,8 +102,8 @@ h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-al
 a,span {margin-top:auto; margin-bottom:auto; padding: 5px; text-align: center;color: rgba(130, 234, 68, 1);}
 *.shadow { text-shadow: rgba(2, 19, 38, 0.55) 3px 2px 5px;}
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
-aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
-#silita-0.1{ margin:auto; width:100%; position: relative;}
+aside,#sili,{ display: block; margin:auto; width: 350px; position: relative; }
+#silita{ margin:auto; width:100%; position: relative;}
 #ui-id-2 { background: rgba(16, 189, 224, 0.71); margin:10px; border-radius: 5px; border-spacing: 5;}
 #ui-id-3 { background: rgba(61, 169, 224, 0.71); margin:10px; border-radius: 10px; border-spacing: 5;}
 #ui-id-4 { background: rgba(106, 204, 214, 0.65); margin:10px; border-radius: 5px;}
@@ -134,6 +133,6 @@ aside,#silita,{ display: block; margin:auto; width: 350px; position: relative; }
 #v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
 
 /* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% }
-rgba(170, 70, 59, 1); alkup taustavari?? 
+rgba(170, 70, 59, 1); alkup taustavari??
 rgba(116,77,105,0.70) kopio body ym.
 background-color:rgba(20, 255, 208, 0.6); #selit1*/
