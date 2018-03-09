@@ -113,9 +113,10 @@ fieldset, #boora{ 		border-radius: 10px;
 #effectTypes { width: 120px; height:auto; position: relative; text-align: center;}
 section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}
 #selit1,{ display:flex; margin-top: 15px;  text-align: center;letter-spacing: 0.8px; width:80%; position:relative;}
-h1,h2,h3,h4,p,#lyhyt {margin-top:auto;margin-bottom:auto;padding:3px;text-align: center;outline:none;color: rgba(139, 199, 69, 8);text-shadow: rgba(104, 139, 177, 0.55) 3px 2px 5px;border-radius: 45%;}
+h1,h2,h3,h4,p,#lyhyt {margin-top:auto;margin-bottom:auto;padding:3px;text-align: center;outline:none;color: rgba(121, 245, 174, 0.92);text-shadow: rgba(9, 18, 29, 0.75) 3px 2px 5px;border-radius: 45%;}
 a,span {margin-top:auto; margin-bottom:auto; padding: 5px; text-align: center;color: rgba(130, 234, 68, 1);}
 *.shadow { text-shadow: rgba(2, 19, 38, 0.55) 3px 2px 5px;}
+*.shadow-2 { text-shadow: rgba(12, 49, 28, 0.45) 3px 2px 5px;}
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
 /*aside,#sili,{ display: block; margin:auto; width: 350px; position: relative; }*/
 #silita{ margin:auto; width:100%; position: relative;}
@@ -146,6 +147,7 @@ a,span {margin-top:auto; margin-bottom:auto; padding: 5px; text-align: center;co
     #v_nav_bar a:active { color:#aa99d0; background-color: #1893ba;}
 
 #v_nav_bar {display:none; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
+
 
 /* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% }
 rgba(170, 70, 59, 1); alkup taustavari??
