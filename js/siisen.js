@@ -1,5 +1,5 @@
 $(function(){
-    function runEffect(){      
+    function runEffect(){
       var selectedEffect = $( "#effectTypes" ).val();
       var options = {};
       if ( selectedEffect === "scale" ) {
@@ -9,7 +9,7 @@ $(function(){
       }
       $( "#effect" ).show( selectedEffect, options, 1100, callback );
     };
- 
+
     //callback function to bring a hidden box back
     function callback() {
       setTimeout(function() {
@@ -19,10 +19,10 @@ $(function(){
     $( "#button" ).click(function() {
       runEffect();
     });
- 
+
     $( "#effect" ).hide();
     $( "#v_nav_bar").show();
-    
+
     $(function() {
       $( "#accordion" ).accordion();
    } );

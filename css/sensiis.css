@@ -1,44 +1,55 @@
-html,body {display:block;}
-div,section,.hela_sivu_1,.cell, .sisas {
+html,body,section,.hela_sivu_1,#boora,.cell, .sisas{
 	display:flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 	justify-content:center;
 	margin-left:auto;
 	margin-right:auto;
+	min-width: 358px;
+	max-width:587px;
 	font-family:Arial,Helvetica,sans-serif;
 	background-color: rgba(170,70,59,1);
+	color: #eb8f00;
 }
 #valin-0.1,#palaus{
 	margin:auto;
 	width:50%;
-}
+  }
 header{
 	margin:auto;
 	padding:auto;
-}
+  }
 ol,ul{
 	list-style-type: none;
 	list-style: none;
-}
+  }
 .sisas{
-	margin:1em;
-	padding: 2px;
-	width:280px;
-	height:500px;
-}
+	margin:auto;
+	padding:auto;
+	width:80px;
+	height:50px;
+  }
 
 .plaat				{
-						background-attachment:scroll;
-						background-color: rgba(195, 177, 208, 0.56);
-}
-.osane				{   background-color: rgba(59, 69, 107, 0.59);
-										  font-variant: small-caps;
-										  letter-spacing: 1.8px;
-										  border-radius: 5px;
-					}
+	background-attachment:scroll;
+	background-color: rgba(195, 177, 208, 0.56);
+  }
+.osane				{
+	display:flex;
+	justify-content:inherit;
+	background-color: rgba(59, 69, 107, 0.59);
+	font-variant: small-caps;
+	letter-spacing: 1.8px;
+	border-radius: 5px;
+	}
 #clickme			{
 						cursor: -webkit-grab;
 }
-
+/*
 table, td          {    display:flex;
                         justify-content:inherit;
 						border-collapse: separate;
@@ -46,6 +57,7 @@ table, td          {    display:flex;
 						font-weight:bold;
 						letter-spacing: 2px;
 					}
+
 .poks-taulu,#b_1	{
 
 						border: 3px solid rgba(67, 197, 78, 0.84);
@@ -56,6 +68,7 @@ table, td          {    display:flex;
 						border: 3px solid rgba(68, 142, 135, 0.4);
 						background-color: rgba(131, 167, 126, 0.5);
 						}
+						*/
 .ui-widget-header,.ui-accordeon-header		{color: rgba(120, 229, 15, 2.99);}
 
 a:hover				{	margin:auto;
@@ -70,39 +83,41 @@ a img 				{
 						margin:auto;
 						color: rgba(226, 74, 53, 0.71);
 					}
-fieldset,#boora{ 		border-radius: 10px;
+fieldset, #boora{ 		border-radius: 10px;
 					}
+
 #boora:hover {border-radius: 30%;}
 /*
 #boura{ 				border-radius: 100px /50% 50% 0 0 transition 0.3;
-}*/
+}
  #boura:hover {border-radius: 10%;}
 
-.toggler { 				display: block;
-						margin-left:auto;
+.toggler { 				display: flex;
+									justify-content: center;
+						/*margin-left:auto;
 						margin-right:auto;
 						width: auto;
 						height: auto;
-						border-radius: 0.5%;}
+						border-radius: 0.5%;}*/
 #accordion { 			width: 358px;
 						margin:auto;
 						position:relative;
 					}
-#paa_nav, #button { 	margin-right:3.3em;
+/*#paa_nav, #button { 	margin-right:1em;
 						text-decoration: none;
 					}
 #paa_nav, #button:hover {color:red; position:relative;
-					}
+					}*/
 #effect {
 	margin:auto; width: 358px; height:auto; position: relative; color: navy;text-align: center;background-color:rgba(139, 81, 14, 0.20);border-radius: 2.5%;}
 #effectTypes { width: 120px; height:auto; position: relative; text-align: center;}
-/*section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}*/
-#selit1,{ display:block; margin-top: 15px;  text-align: center;letter-spacing: 0.8px; width:100%; position:relative;}
-h1,h2,h3,h4,p,#lyhyt { margin-top:auto; margin-bottom:auto; padding:3px; text-align: center; outline:none; color: rgba(199, 199, 49, 2); text-shadow: rgba(2, 19, 38, 0.55) 3px 2px 5px;;border-radius: 45%;}
+section{ margin:auto; text-align: auto; position:relative; border-radius: 6%;}
+#selit1,{ display:flex; margin-top: 15px;  text-align: center;letter-spacing: 0.8px; width:80%; position:relative;}
+h1,h2,h3,h4,p,#lyhyt {margin-top:auto;margin-bottom:auto;padding:3px;text-align: center;outline:none;color: rgba(139, 199, 69, 8);text-shadow: rgba(104, 139, 177, 0.55) 3px 2px 5px;border-radius: 45%;}
 a,span {margin-top:auto; margin-bottom:auto; padding: 5px; text-align: center;color: rgba(130, 234, 68, 1);}
 *.shadow { text-shadow: rgba(2, 19, 38, 0.55) 3px 2px 5px;}
 #otsikko,#omaOtsikko{margin:auto; width:auto; position: relative; text-align:left; }
-aside,#sili,{ display: block; margin:auto; width: 350px; position: relative; }
+/*aside,#sili,{ display: block; margin:auto; width: 350px; position: relative; }*/
 #silita{ margin:auto; width:100%; position: relative;}
 #ui-id-2 { background: rgba(16, 189, 224, 0.71); margin:10px; border-radius: 5px; border-spacing: 5;}
 #ui-id-3 { background: rgba(61, 169, 224, 0.71); margin:10px; border-radius: 10px; border-spacing: 5;}
@@ -130,7 +145,7 @@ aside,#sili,{ display: block; margin:auto; width: 350px; position: relative; }
     #v_nav_bar a:hover { color:#99d0d0; background-color: #1e93ba;}
     #v_nav_bar a:active { color:#aa99d0; background-color: #1893ba;}
 
-#v_nav_bar {display:block; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
+#v_nav_bar {display:none; background-color:rgba(215, 106, 65, 0.66);border-radius: 10px; position:absolute;}
 
 /* here is how to make borders animate ... element { border-radius: 90% / 50% 50% 0 0; transition: .2s; } element { border-radius: 90% }
 rgba(170, 70, 59, 1); alkup taustavari??
